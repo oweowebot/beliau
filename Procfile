@@ -1,1 +1,1 @@
-worker: npm install && npm update && node . -db
+worker: node . -db
