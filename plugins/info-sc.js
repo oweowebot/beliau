@@ -1,16 +1,12 @@
 /*
- * ngelarang lu biar g diubah kyknya emg susah ya anjg
- * jadi kalau lu g bsa ngehargain orang
- * setidaknya buat sc ori by gw, trs buat sc lu hasil copas tuh
- * better bgtu dripada nma gw dihapus smua
- * najis 👎🗿
+ * bacot kontol
 */
 
 let handler = async (m, { conn }) => {
 let ye = `@${m.sender.split`@`[0]}`
 let esce = `
 Awokwok beliau ini pemulung SC :v`
-conn.sendBut(m.chat, esce, wm3, 'Thanks', 'thanks', m) 
+conn.sendBut(m.chat, esce, wm, 'Ngontol', '@6287831204077', m) 
 }
 handler.help = ['sc', 'sourcecode']
 handler.tags = ['info']
