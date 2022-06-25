@@ -7,6 +7,7 @@ let tags = {
   'main': 'Main',
   'stres': 'Autis',
   'game': 'Game',
+  'dewasa': 'Sagnean tools',
   'xp': 'Exp & Limit',
   'textpro': 'textpro',
   'sticker': 'Sticker',
