@@ -13,7 +13,6 @@ handler.help = ['xnxxdl *link*']
 handler.tags = ['downloader', 'dewasa']
 handler.command = /^xnxxdl$/i
 
-handler.private = true
 handler.limit = 12
 
 module.exports = handler
