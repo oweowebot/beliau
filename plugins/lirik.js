@@ -15,7 +15,6 @@ handler.help = ['lirik', 'lyrics']
 handler.tags = ['internet']
 handler.command = /^(l(irik|yrics))$/i
 
-handler.register = true
 handler.limit = true
 
 module.exports = handler
