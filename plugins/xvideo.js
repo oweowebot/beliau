@@ -11,7 +11,7 @@ let handler = async(m, { conn, text, command, usedPrefix }) => {
 handler.help = ['xvideosearch <judul>']
 handler.tags = ['dewasa']
 handler.command = /^(xvideosearch)$/i
-handler.private = true
+
 handler.limit = 8
 
 module.exports = handler
