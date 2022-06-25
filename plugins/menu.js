@@ -6,6 +6,7 @@ let tags = {
   'premium': 'Premium',
   'main': 'Main',
   'stres': 'Autis',
+  'asupan': 'Asupan',
   'game': 'Game',
   'dewasa': 'Sagnean tools',
   'xp': 'Exp & Limit',
