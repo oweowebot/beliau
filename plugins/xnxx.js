@@ -12,7 +12,6 @@ handler.help = ['xnxxsearch <query>']
 handler.tags = ['dewasa']
 handler.command = /^(xnxxsearch)$/i
 
-handler.private = true
 handler.limit = 6
 
 module.exports = handler
