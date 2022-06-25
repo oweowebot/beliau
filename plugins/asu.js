@@ -12,6 +12,4 @@ handler.help = ['hijaber', 'ukhty', 'santuy', 'cecan', 'indonesia', 'malaysia', 
 handler.tags = ['asupan']
 handler.command = /^(hijaber|ukhty|santuy|cecan|Indonesia|malaysia|thailand|vietnam|china|korea|japan)$/i
 
-handler.register = true
-
 module.exports = handler
