@@ -2,8 +2,8 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
   await m.reply(global.wait)
   let res = await fetch(global.API('xteam','/religi/tahlil', {}, 'APIKEY'))
+  if (!res.status != 200) throw 'Error Website sedang down'
   let json = await res.json()
-  if (res.status != 200) throw json
   if (json.result.error) throw json.result.message
   let {
     title,
@@ -23,7 +23,6 @@ _"${translation}"_
 handler.help = ['tahlil']
 handler.tags = ['islam']
 handler.command = /^(tahlil)$/i
-handler.register = true
 
 handler.fail = null
 handler.limit = false
