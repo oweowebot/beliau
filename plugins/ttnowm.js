@@ -13,7 +13,6 @@ handler.help = ['tiktoknowm *link*']
 handler.tags = ['downloader']
 handler.command = /^tiktoknowm$/i
 
-handler.register = true
 handler.limit = 2
 
 module.exports = handler
