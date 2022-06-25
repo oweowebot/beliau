@@ -1,26 +1,12 @@
-let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
-    const ftrol = {
-    key : {
-    remoteJid: 'status@broadcast',
-    participant : '0@s.whatsapp.net'
-    },
-    message: {
-    orderMessage: {
-    itemCount : 2022,
-    status: 1,
-    surface : 1,
-    message: `ERR NOT FOUND`, 
-    orderTitle: `▮Menu ▸`,
-    thumbnail: await (await fetch('https://cdn.anisearch.com/images/character/cover/full/83/83046.webp')).buffer(), //Gambarnye
-    sellerJid: '0@s.whatsapp.net' 
-    }
-    }
-    }
 
-   conn.sendBut(m.chat, `Selamat menunaikan ibadah puasa`, `Bot aktip selama ${uptime}`, 'INFO', '.ping', ftrol)
+m.reply(`
+┌─〔 R U N T I M E 〕
+├ Bot Aktif Selama ${uptime}
+└────
+    `)
 }
 handler.help = ['runtime']
 handler.tags = ['info']
