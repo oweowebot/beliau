@@ -9,6 +9,5 @@ handler.help = ['darkmeme'].map(v => v + ' ')
 handler.tags = ['internet', 'fun', 'meme']
 
 handler.command = /^(darkmeme)$/i
-handler.register = true
 
 module.exports = handler
