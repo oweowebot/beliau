@@ -13,7 +13,6 @@ handler.help = ['xvideosdl *link*']
 handler.tags = ['downloader', 'dewasa']
 handler.command = /^xvideosdl$/i
 
-handler.private = true
-handler.limit = 11
+handler.limit = 20
 
 module.exports = handler
