@@ -28,7 +28,7 @@ let stikerhuuu = [
  "https://telegra.ph/file/d771ae015b5486859d03f.png",//mazowski 2
  "https://telegra.ph/file/9c7606f571c05b4d0c941.png",//hengker
  "https://telegra.ph/file/84fd937257bcd614d6c9e.png",//anjing
- " https://telegra.ph/file/b3a79b75e6d0240ec6ea5.jpg", //wibu
+ "https://telegra.ph/file/b3a79b75e6d0240ec6ea5.png", //wibu
  "https://telegra.ph/file/b8ba6989c00c50df049d0.png",//bapak bapak lovee
  "https://telegra.ph/file/2f618fffab6ff7bea32ab.png",//abang saleh
  "https://telegra.ph/file/dfbf483c209a31f01b4e5.png"//hengker2
