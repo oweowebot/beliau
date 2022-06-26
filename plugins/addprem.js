@@ -14,7 +14,7 @@ let handler = async (m, { conn, text }) => {
     require('../config')
 
 }
-handler.help = ['addprem [@user]']
+handler.help = ['tambahprem [@user]']
 handler.tags = ['owner']
 handler.command = /^(tambah)prem$/i
 
