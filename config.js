@@ -1,3 +1,4 @@
+let fs = require('fs')
 let moment = require('moment-timezone')
 let d = new Date(new Date + 3600000)
 let locale = 'id'
@@ -117,7 +118,6 @@ global.rpg = {
   }
 }
 
-let fs = require('fs')
 let chalk = require('chalk')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
