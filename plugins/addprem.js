@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['addprem [@user]']
 handler.tags = ['owner']
-handler.command = /^(add|tambah|\+)prem$/i
+handler.command = /^(tambah)prem$/i
 
 handler.owner = true
 
