@@ -19,7 +19,7 @@ function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
 }global.owner = ['6285974899229'] // Put your number here
 global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.prems = JSON.parse(fs.readFileSync(`./src/premium.json`))
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com', //hmm free gk sih gk pernah nyoba soalnya :v
