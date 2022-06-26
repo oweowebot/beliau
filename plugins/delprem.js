@@ -15,9 +15,9 @@ let handler = async (m, { conn, args }) => {
     require('../config')
 
 }
-handler.help = ['delprem [@user]']
+handler.help = ['unprem [@user]']
 handler.tags = ['owner']
-handler.command = /^(remove|hapus|-|del)prem$/i
+handler.command = /^unprem$/i
 
 handler.owner = true
 
