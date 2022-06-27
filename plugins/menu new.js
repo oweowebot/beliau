@@ -7,7 +7,7 @@ let caption = `Welcome *${conn.getName(m.sender)}* to *_RhaynaBotz_*\n-Klik *_Me
 await conn.send3ButtonImg(m.chat, logo, caption, wm, 'Menu', '.sihsvsudbsjagsb', 'Group', '.gerup', 'Rules', '.rules', m)
 await conn.reply(m.chat, lagu, m)
 }
-handler.command = /^(menu|help|?)$/i
+handler.command = /^(menu|help)$/i
 handler.tags = ['main']
 handler.help = ['menu']
 module.exports = handler
