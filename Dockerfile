@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install && npm install qrcode-terminal && node . --db "mongodb+srv://zifabotz:ztwo2016@cluster0.xlzq3dr.mongodb.net/?retryWrites=true&w=majority" --autocleartmp --restrict
+RUN node . --db "mongodb+srv://zifabotz:ztwo2016@cluster0.xlzq3dr.mongodb.net/?retryWrites=true&w=majority" --autocleartmp --restrict
 
 COPY . .
 
