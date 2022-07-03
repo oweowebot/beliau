@@ -10,10 +10,10 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN node . --db "mongodb+srv://zifabotz:ztwo2016@cluster0.xlzq3dr.mongodb.net/?retryWrites=true&w=majority" --autocleartmp --restrict
+RUN npm install && npm install qrcode-terminal && npm install pm2 -g 
 
 COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "index.js"]
+CMD ["node . --db "mongodb+srv://zifabotz:ztwo2016@cluster0.xlzq3dr.mongodb.net/?retryWrites=true&w=majority" --autocleartmp --restrict"]
