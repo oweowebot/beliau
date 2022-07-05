@@ -16,4 +16,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node . --db "mongodb+srv://zifabotz:ztwo2016@cluster0.xlzq3dr.mongodb.net/?retryWrites=true&w=majority" --autocleartmp --restrict"]
+CMD ["node", "index.js"]
