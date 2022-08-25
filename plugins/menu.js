@@ -38,7 +38,7 @@ const defaultMenu = {
 ╭─「 *%ucapan* 」
 │ 
 │welcome *%name*
-│to menu from *_RhaynaBotz_*
+│to menu from *${global.wm}*
 │
 │ Tanggal: *%week %weton, %date*
 │ Tanggal Islam: *%dateIslamic*
