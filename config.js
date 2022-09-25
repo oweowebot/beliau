@@ -66,14 +66,14 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.stiker_wait = 'Stiker sedang dibuat'
 global.packname = 'By'
-global.author = 'yudBotz'
+global.author = 'SillBotz'
 
 
 
 
 
 ig: '-'
-global.wm = 'yudBotz'
+global.wm = 'SillBotz'
 global.watermark = wm
 global.botdate = '╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────'
 global.media = 'https://telegra.ph/file/e001198ced5650ef53d47.jpg'
